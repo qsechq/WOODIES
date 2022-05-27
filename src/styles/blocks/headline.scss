@@ -1,0 +1,57 @@
+.headline{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5833rem;
+  &::after{
+    content: 'ABOUT US';
+    color:rgba(34, 34, 34, 0.1);
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  &--custom{
+    &::after{
+      content: 'HOW IT WORKS';
+    }
+  }
+  &--products{
+    &::after{
+      content: 'CATEGORIES';
+    }
+  }
+  &--testimony{
+    &::after{
+      content: 'TESTIMONY';
+    }
+  }
+}
+
+.headline__title{
+display: flex;
+align-items: center;
+font-weight: 700;
+font-size: 1.5rem;
+color: #3E3F43;
+  &::after{
+    content: '';
+    margin-left: 0.6667rem;
+    display: block;
+    width: 13.1667rem;
+    background-color: #000;
+    height: 1px;
+  }
+  &--custom{
+    &::after{
+      width: 2.7083rem;
+    }
+  }
+  &--products{
+    &::after{
+      width: 8.4167rem;
+    }
+  }
+  &--testimony{
+    &::after{
+      width: 10rem;
+    }
+  }
+}

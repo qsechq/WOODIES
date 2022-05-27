@@ -1,0 +1,55 @@
+#section--guide{
+  margin-bottom: 118px;
+}
+
+.custom{
+  margin-top: 83px;
+  height: 100%;
+}
+
+.custom__list{
+  display: flex;
+  margin-bottom: 48px;
+}
+
+.custom__item{
+  position: relative;
+  font-size: 4rem;
+  font-weight: 600;
+  color: rgba(249, 189, 189, 0.25);
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.custom__pic{
+  position: absolute;
+  bottom: 3rem;
+  left: 1.7083rem;
+}
+
+.custom__text{
+  font-weight: 700;
+  color: #000;
+  font-size: 1rem;
+  padding-left: 1.4583rem;
+}
+
+.custom__link{
+  display: flex;
+  justify-content: center;
+}
+
+.custom__linl-btn{
+  padding: 0.5833rem 1rem;
+  color: #fff;
+  background-color: $main-color;
+  font-weight: 700;
+  border-radius: 4px;
+  font-size: 0.6667rem;
+  transition: 0.3s;
+  &:hover{
+    background: #f8cf65;
+  }
+}

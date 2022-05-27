@@ -1,0 +1,135 @@
+.testimony{
+  margin-bottom:3.5417rem;
+}
+
+.review{
+  display: flex;
+  margin-bottom: 7.2083rem;
+}
+
+.review__example{
+  display: flex;
+}
+
+.review__example-pic{
+  margin-right: 1rem;
+  &:last-child{
+   margin-right: 2rem;
+  }
+}
+
+.review__example-img{
+  border-radius: 3.75rem 0 3.75rem 0;
+}
+
+.review__users__block{
+  width: 16rem;
+  height: 11.6667rem;
+  border: 1px solid #A8DCEC;
+  border-radius: 0px 3.4583rem 0px 3.375rem;
+  padding: 2.2917rem 0.6667rem 1.7083rem;
+  margin-bottom: 0.75rem;
+}
+
+.review__users-text{
+  font-size: 0.5833rem;
+  font-weight: 600;
+  color: #3E3F43;
+  margin-top: 0.6667rem;
+  margin-bottom: 0.4583rem;
+}
+
+.review__users-name{
+  font-size: 0.5rem;
+  font-weight: 600;
+  color: #AFAFAF;
+}
+
+.review__users-avatar{
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+.review__users-info{
+  display: flex;
+  align-items: center;
+}
+
+.review__users-slider{
+  display: flex;
+  flex-direction: column;
+}
+
+.review__users-arrows{
+  display: flex;
+  margin-bottom: 1.9167rem;
+  position: relative;
+}
+
+.review__users-arrow{
+  width: 1.4167rem;
+  height: 1.75rem;
+  &--prev{
+    fill: #C4C4C4;
+    margin-right: 8px;
+  }
+  &--next{
+    margin-left: 7px;
+  }
+}
+
+.review__users-link{
+  font-size: 0.5833rem;
+  font-weight: 600;
+  margin-right: 9.0833rem;
+  display: flex;
+  position: absolute;
+  &--prev{
+    color: #C4C4C4;
+    align-items:center;
+    top: -6px;
+  }
+  &--next{
+    color: #3E3F43;
+    margin-right: 0;
+    left: 13.125rem;
+    top: 4px;
+  }
+}
+
+.review__users-list{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.review__users-item{
+  margin-right: 8px;
+  &:last-child{
+    margin-right: 0;
+  }
+}
+
+.review__users-element{
+  content: '';
+  display: block;
+  border-radius: 8px;
+  width: 1.6667rem;
+  height: 8px;
+  background-color: #E5E5E5;
+  &--active{
+    background-color: $main-color;
+  }
+}
+
+.review__users-comments{
+  display: flex;
+  transition: right 0.3s;
+}
+
+.review__users-comment{
+  display: none;
+  &--active{
+    display: flex;
+    flex-direction: column;
+  }
+}

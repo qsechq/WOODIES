@@ -1,0 +1,53 @@
+.footer{
+  background: url("./images/deck.png") left 79% top 101% no-repeat;
+  height: 10.4167rem;
+  background-color: #f2f2f2;
+}
+
+.container--footer{
+  width: 29.5rem;
+  margin-bottom: 1.875rem;
+  &::before{
+    content: '';
+    display: flex;
+    height: 1px;
+    background-color: #C4C4C4;
+    width: 100%;
+  }
+}
+
+#logo--footer{
+  margin-right: 2rem;
+}
+
+.address__item{
+  font-size: 0.5833rem;
+  color: #8D8D8D;
+  &--logo{
+    margin-bottom: 0.6667rem;
+  }
+}
+
+.address__item{
+  margin-bottom: 0.6667rem;
+  &:last-child{
+    margin-bottom: 0;
+  }
+}
+
+.nav__link-item{
+  font-size: 0.5833rem;
+  color: #8D8D8D;
+  margin-bottom: 0.6667rem;
+  &:last-child{
+    margin-bottom: 0;
+  }
+}
+
+.corp{
+  font-weight: 600;
+  font-size: 0.5rem;
+  color: #8D8D8D;
+  display: flex;
+  justify-content: center;
+}
